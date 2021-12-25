@@ -50,7 +50,7 @@ An entry **always** has the following properties:
 - `maintainers`: A collection of names who are the maintainers of the module. The names **must** match the names used on
   GitHub as these people are the only ones who will be able to publish updates for the module through our repository.
 - `releaseNotes`: A (string) collection containing the release notes of the latest version.
-- `dependsModules`: A collection of modules which are required in order to run the module. All modules **must** be
+- `dependingModules`: A collection of modules which are required in order to run the module. All modules **must** be
   available through the module file as well.
 
 ### How all these files get here
